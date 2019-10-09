@@ -1,0 +1,1856 @@
+/************************************************
+[Responsive Stylesheet]
+*************************************************/
+
+
+@media (max-width: 1500px) {
+    .cripto_header nav .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+    .cripto_header nav .signin_area {
+        padding-left: 5px;
+    }
+    .cripto_header nav .signin_area li a {
+        min-width: 95px;
+        padding: 0 10px;
+        height: 45px;
+        line-height: 45px;
+    }
+    
+    /*----banner-----*/
+    .cripto_banner .banner_content h1 {
+        margin-top: 80px;
+    }
+    .cripto_banner .shape1 {
+        left: -280px;
+        top: -165px;
+    }
+    .cripto_banner .shape2 {
+        right: -231px;
+        top: -180px;
+    }
+    .cripto_banner .shape3 {
+        bottom: -242px;
+        left: -180px;
+    }
+    .cripto_banner .wave1 {
+        right: 28%;
+    }
+    .cripto_banner .wave3 {
+        bottom: 330px;
+        right: 440px;
+    }
+    .token_section {
+        padding-top: 130px;
+    }
+    
+    .home1_dark .token_section .overlay,
+    .token_section .overlay {
+        border-radius: 410px 0 0;
+        left: -160px;
+        top: 106px;
+        -webkit-transform: rotate(7deg);
+        -ms-transform: rotate(7deg);
+        -o-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+    .app_download .app_shape2,
+    .app_download .app_shape1 {
+        height: 110px;
+        width: 600px;
+    }
+    .testimonial_section .shape {
+        height: 600px;
+        width: 600px;
+    }
+    .cta3 .bottom_left_shape {
+        height: 150px;
+        width: 400px;
+    }
+    .cta3 .top_right_shape {
+        height: 170px;
+        width: 510px;
+    }
+    .cta3 .bottom_right_shape {
+        height: 150px;
+    }
+    
+    /*-------------home page-1 dark------------*/
+    .home1_dark .cripto_banner .vector_img {
+        bottom: 40px;
+        max-width: 510px;
+    }
+    .home1_dark .cripto_process .shape1 {
+        height: 270px;
+        top: -219px;
+        width: 670px;
+    }
+    
+    
+    /*---------------------------home page-3 style----------------------*/
+    .cripto_header.v2 nav .signin_area li.login a,
+    .cripto_header.v2 nav .signin_area li.signin a{
+        line-height: 42px;
+    }
+    .cripto_banner.v2 .banner_wave_shape {
+        bottom: -140px;
+    }
+    .cripto_banner.v2 img.vector_img {
+        bottom: -60px;
+        max-width: 880px;
+    }
+    .cripto_banner.v2 .shape2 {
+        height: 400px;
+    }
+    .cripto_header.v2 nav .signin_area li a {
+        min-width: 100px;
+    }
+    .cripto_banner.v2 .banner_content {
+        height: 740px;
+    }
+    .cripto_faq {
+        padding-bottom: 60px;
+        padding-top: 260px;
+    }
+    .cripto_faq .shape1 {
+        left: -300px;
+    }
+    .cripto_faq .shape2 {
+        right: -333px;
+    }
+    .token_section.v2 .overlay {
+        border-radius: 0 430px 0 0;
+        top: 138px;
+    }
+    .footer_wrapper.v2 .footer_shape {
+        right: 100px;
+        bottom: -260px;
+    }
+    
+    /*-------------home-4 (home-3 dark version) style-----------*/
+    .home2_dark .cripto_banner.v2 .shape1 {
+        height: 250px;
+        width: 590px;
+    }
+    .home2_dark .cripto_banner.v2 .shape2 {
+        height: 280px;
+        top: 500px;
+    }
+    
+    
+    /*-------------home-5 style----------------*/
+    .cripto_banner.v3 .row.align_center {
+        height: 700px;
+    }
+    .cripto_banner.v3 .banner_content h1 {
+        font-size: 38px;
+        line-height: 52px;
+        margin-top: -80px;
+    }
+    .cripto_banner.v3 .banner_content .coin_price {
+        bottom: -140px;
+    }
+    .cripto_banner.v3 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 5px);
+        width: calc(101% - 7px);
+    }
+    .cripto_banner.v3 .banner_content .title_20 {
+        font-size: 18px;
+        line-height: 33px;
+        max-width: 480px;
+    }
+    .cripto_banner.v3 .banner_img .main_img {
+        max-width: 530px;
+        -webkit-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon3 {
+        right: 272px;
+        top: 105px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon2 {
+        right: 140px;
+        top: 113px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon1 {
+        right: 207px;
+        top: 10px;
+    }
+    
+    /*----------app download section--------*/
+    .app_download.v2 .content {
+        max-width: 540px;
+    }
+    .app_download.v2 .mobile_area {
+        -webkit-transform: translateX(-130px);
+        -ms-transform: translateX(-130px);
+        -o-transform: translateX(-130px);
+        transform: translateX(-130px);
+    }
+    
+    
+    
+} /*------1200px-1500px----*/
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .cripto_header nav .navbar-nav > li > a.nav-link {
+        padding: 10px 16px;
+    }
+    .cripto_header .navbar-expand-xl {
+        padding: 0;
+    }
+    .cripto_header.v3 nav .navbar-nav > li > a.nav-link {
+        padding: 10px 18px;
+    }
+    .cripto_header.v3 nav .signin_area li.login a {
+        line-height: 43px;
+    }
+    .cripto_header.v2 nav .navbar-nav > li > a.nav-link {
+        padding: 10px 15px;
+    }
+    .cripto_header.v2 nav .signin_area li a {
+        min-width: 92px;
+    }
+    
+}
+
+@media (min-width: 1200px) {}
+
+/* ================Large Display==============*/
+@media (max-width: 1199px) {
+    .cripto_header {
+        padding: 15px 0;
+    }
+    .cripto_header.sticky {
+        padding: 3px 0;
+    }
+    .cripto_header .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(34,230,255, 0.85)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E");
+    }
+    .cripto_header .navbar-light .navbar-toggler {
+        border: 1px solid rgba(34, 230, 255, 0.85);
+        border-radius: 0;
+        padding: 6px 10px;
+    }
+    .cripto_header .navbar-collapse {
+        background: #001b40 none repeat scroll 0 0;
+        margin-top: 14px;
+    }
+    .cripto_header nav .navbar-nav > li > a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        border-top: 1px solid rgba(0, 0, 0, 0.19);
+        display: block;
+        padding: 8px 25px;
+    }
+    .cripto_header nav .navbar-nav > li > a:hover {
+        background: rgba(0,0,0,0.06);
+    }
+    .cripto_header nav .navbar-nav > li:first-child > a {
+        border-top: none;
+    }
+    .cripto_header nav .navbar-nav > li:last-child > a {
+        border-bottom: none;
+    }
+    
+    /*------banner section-------*/
+    .cripto_banner .banner_content h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 70px;
+    }
+    .cripto_banner .banner_content .title_20 {
+        font-size: 18px;
+        line-height: 35px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .cripto_banner .shape2 {
+        right: -290px;
+        top: -210px;
+    }
+    
+    .cripto_banner .triangle5,
+    .cripto_banner .triangle4,
+    .cripto_banner .triangle3,
+    .cripto_banner .triangle2,
+    .cripto_banner .triangle1 {
+        width: 30px;
+    }
+    .cripto_banner .triangle1 {
+        left: 195px;
+        margin-top: 0px;
+        top: 100px;
+        width: 30px;
+    }
+    .cripto_banner .triangle3 {
+        bottom: 170px;
+        left: 305px;
+    }
+    .cripto_banner .triangle4 {
+        display: none;
+    }
+    .cripto_banner .triangle5 {
+        top: 140px;
+    }
+    .cripto_banner .wave3 {
+        bottom: 330px;
+        right: 370px;
+    }
+    .cripto_banner .wave1 {
+        right: 340px;
+    }
+    .cripto_banner .wave2 {
+        top: 60%;
+    }
+    .cripto_banner .wave4 {
+        bottom: 314px;
+        right: 110px;
+    }
+    .cripto_banner .banner_content .banner_btn .video a::after {
+        height: calc(101% - 5px);
+        width: calc(101% - 7px);
+    }
+    
+    /*-------tocken section--------*/
+    .home1_dark .token_section .overlay, .token_section .overlay,
+    .token_section .overlay {
+        left: -290px;
+        top: 88px;
+    }
+    .token_section {
+        padding-top: 110px;
+    }
+    .token_section .counter_wrapper .single-count h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .token_section .counter_wrapper .single-count p {
+        padding-top: 0;
+        font-size: 15px;
+    }
+    .token_section .currencies .single_currence {
+        min-height: 106px;
+        width: 28%;
+    }
+    .token_section .currencies .single_currence > img {
+        width: 65px;
+    }
+    .coin_convert_section .convert_button_area p {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    /*--------app download-------*/
+    .about_us {
+        padding: 110px 0 100px;
+    }
+    .app_download {
+        padding: 80px 0 90px;
+    }
+    .app_download .content h2 {
+        padding-top: 20px;
+    }
+    .app_download .triangle_shape1 {
+        top: 70px;
+        left: 360px;
+        width: 30px;
+    }
+    .app_download .triangle_shape3 {
+        bottom: 200px;
+        left: 580px;
+        width: 30px;
+    }
+    .app_download .triangle_shape2 {
+        bottom: 40px;
+        left: 50px;
+        width: 30px;
+    }
+    .app_download .mobile_area {
+        margin-bottom: -140px;
+        margin-top: -123px;
+    }
+    
+    /*----faq_section------*/
+    .faq_section {
+        padding-top: 125px;
+    }
+    
+    /*-----cta----*/
+    .cta3 .cta_content {
+        padding: 56px 50px 63px;
+    }
+    .cta3 .cta_content .content_txt h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .cta3 .cta_content .content_txt p {
+        line-height: 27px;
+    }
+    .cta3 .cta_content .cta_button {
+        font-size: 18px;
+        height: 55px;
+        line-height: 56px;
+        min-width: 230px;
+    }
+    .cta3 .bottom_left_shape {
+        height: 130px;
+        width: 380px;
+    }
+    
+    /*-------footer------*/
+    .footer_section .contact_address p.email {
+        white-space: nowrap;
+    }
+    
+    /*------------------------------home page-1 dark version-----------------*/
+    .home1_dark .cripto_banner .vector_img {
+        max-width: 370px;
+        margin-top: 0;
+    }
+    .home1_dark .cripto_process .shape1 {
+        height: 150px;
+        top: -110px;
+        width: 740px;
+    }
+    
+    
+    /*----------------------------home page-3 style-------------------------*/
+    .cripto_header.v2 .navbar-collapse {
+        background: #520a9c;
+    }
+    .cripto_banner.v2 img.vector_img {
+        bottom: -20px;
+        max-width: 700px;
+    }
+    .cripto_banner.v2 .overlay {
+        bottom: -140px;
+    }
+    .cripto_banner.v2 .banner_wave_shape {
+        bottom: -80px;
+    }
+    .cripto_banner.v2 .shape2 {
+        display: none;
+    }
+    .cripto_banner.v2 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 4px);
+    }
+    .cripto_header.v2 nav .signin_area li a {
+        min-width: 130px;
+    }
+    
+    /*------faq-------*/
+    .cripto_faq {
+        padding-top: 180px;
+    }
+    .cripto_faq .faq_content h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .cripto_faq .faq_content p {
+        font-size: 16px;
+    }
+    .cripto_faq .faq_content h5.title_20 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .cripto_faq .single_faq:nth-child(2n+1) .faq_content {
+        padding-right: 20px;
+    }
+    .cripto_faq .single_faq .faq_content {
+        width: 55%;
+    }
+    .cripto_faq .single_faq .img_area {
+        width: 45%;
+    }
+    .cripto_faq .shape2 {
+        bottom: 45%;
+    }
+    .cripto_faq .shape1 {
+        top: 18%;
+    }
+    
+    
+    /*---------token-----*/
+    .token_section.v2 .overlay {
+        border-radius: 0 330px 0 0;
+        top: 92px;
+    }
+    
+    /*----------team section------------*/
+    .cripto_team .team_common {
+        width: 33.3333%;
+    }
+    .cripto_team .team_common:nth-child(4) {
+        border-top: 1px solid #f1f1f1;
+    }
+    .cripto_team .team_common:nth-child(4n+4) {
+        border-right: 1px solid #f1f1f1;
+    }
+    .cripto_team .team_common:nth-child(3n+3){
+        border-right: none;
+    }
+    
+    .footer_wrapper.v2 .footer_section {
+        padding: 160px 0 80px;
+    }
+    
+    
+    /*-------------------home-4 (home-3 dark version) page style---------------*/
+    .home2_dark .cripto_banner.v2 .shape1 {
+       right: -90px;
+        top: -120px;
+    }
+    .home2_dark .cripto_banner.v2 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 5px);
+    }
+    .home2_dark .token_section.v2 .overlay {
+        top: 34px;
+    }
+    .home2_dark .token_section {
+        padding-top: 60px;
+    }
+    
+    
+    /*-------------------home page-5 style----------------*/
+    .cripto_header.v3 nav .signin_area li.login a {
+        line-height: 41px;
+        min-width: 130px;
+    }
+    .cripto_header.v3 .navbar-collapse {
+        background: #2544c5;
+        margin-top: 14px;
+    }
+    .cripto_header.v3 nav .navbar-nav > li > a {
+        border-top-color: rgba(0, 0, 0, 0.12);
+    }
+    
+    .cripto_banner.v3 .banner_content h1 {
+        font-size: 31px;
+        line-height: 48px;
+    }
+    .cripto_banner.v3 .banner_content .title_20 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .cripto_banner.v3 .banner_img .main_img {
+        max-width: 460px;
+        -webkit-transform: inherit;
+        -ms-transform: inherit;
+        -o-transform: inherit;
+        transform: inherit;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon1 {
+        right: 158px;
+        top: 12px;
+        width: 20px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon2 {
+        right: 99px;
+        top: 98px;
+        width: 20px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon3 {
+        right: 214px;
+        top: 97px;
+        width: 24px;
+    }
+    .cripto_banner.v3 .banner_content .coin_price li h5.title_20 {
+        color: #fff;
+        padding: 0;
+    }
+    .cripto_banner.v3 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 4px);
+    }
+    
+    
+    /*----------why us section------------*/
+    .whyus_section .single_item .content {
+        padding-right: 30px;
+        width: 50%;
+    }
+    .whyus_section .single_item .img_area {
+        width: 50%;
+    }
+    .whyus_section .single_item .content h2 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .whyus_section .single_item:nth-child(2n) .content {
+        padding-left: 30px;
+    }
+    .whyus_section .single_item:nth-child(2n) .img_area .overlay2 {
+        left: -24px;
+    }
+    
+    /*---------process section--------*/
+    .cripto_process2 .process_wrapper.align_row_left_center {
+        display: block;
+    }
+    .cripto_process2 .process_wrapper .process_icon {
+        margin-left: 0;
+        width: 100%;
+        margin-left: -20px;
+    }
+    .cripto_process2 .process_icon .single_icon {
+        margin-bottom: 0;
+        margin-left: 20px;
+        width: 31%;
+    }
+    .cripto_process2 .process_wrapper .process_content {
+        margin-top: 50px;
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .cripto_process2 .process_wrapper .process_content h3.title_20 {
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .cripto_process2 .process_wrapper .process_content p {
+        margin: 0 auto;
+        max-width: 680px;
+    }
+    .token_section.v3 .token_content h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    
+    
+    /*--------app download---------*/
+    .app_download.v2 .content h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .app_download.v2 .mobile_area {
+        -webkit-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        -o-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    
+    /*------------contact section--------------*/
+    .crypto_contact .abform_area .abinput_group {
+        width: 48%;
+    }
+    .crypto_contact .contact_address {
+        padding: 45px 20px;
+    }
+    
+    
+    
+    
+    
+}/*--end media query 992-1199px--*/
+
+
+/* ====================Tab Screen==============*/
+@media (max-width: 991px) {
+    p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .cripto_banner .wave {
+        display: none;
+    }
+    .cripto_banner {
+        background: url(../images/blue_bg_with_map.png) no-repeat center right / cover;
+    }
+    .cripto_banner .banner_content {
+        text-align: center;
+        align-items: center;
+        min-height: 550px;
+    }
+    .cripto_banner .banner_content .title_20 {
+        max-width: 600px;
+    }
+    .cripto_banner .shape3,
+    .cripto_banner .shape1,
+    .cripto_banner .shape2 {
+        display: none;
+    }
+    .cripto_banner .triangle6 {
+        display: none;
+    }
+    .cripto_process {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .section_title h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section_title h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .section_title {
+        max-width: 520px;
+    }
+    
+    .cripto_process .single_process .img_area > img {
+        max-width: 100%;
+    }
+    .cripto_process .single_process .img_area i {
+        font-size: 70px;
+    }
+    .cripto_process .single_process h4.fw_700 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    
+    /*---------token section---------*/
+    .home1_dark .token_section .overlay,
+    .token_section .overlay {
+        border-radius: 0;
+        top: 0;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .token_section {
+        padding-top: 80px;
+    }
+    .token_section .section_title {
+        max-width: 510px;
+    }
+    .token_section .currencies .single_currence:nth-child(2),
+    .token_section .currencies .single_currence:nth-child(5) {
+        margin-top: 0;
+    }
+    .token_section .currencies .single_currence {
+        min-height: 160px;
+        width: 30.5%;
+        border-radius: 10px;
+    }
+    .token_section .currencies .single_currence > img {
+        width: auto;
+    }
+    .token_section .countdown_area {
+        margin-top: 30px;
+    }
+    .token_section .counter_wrapper .single-count h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .coin_convert_section .convert_button_area {
+        height: auto;
+        margin: 40px 0;
+    }
+    .coin_convert_section .convert_button_area p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .token_section {
+        padding-bottom: 90px;
+    }
+    
+    
+    /*-----about us-------*/
+    .about_us {
+        padding: 80px 0 86px;
+    }
+    .about_us .section_title h4 {
+        font-size: 18px;
+    }
+    .about_us .single_facts h3.title_36 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .about_us .facts_wrapper .single_facts p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    /*----app download-------*/
+    .app_download .app_shape2,
+    .app_download .app_shape1 {
+        display: none;
+    }
+    .app_download .mobile_area {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .app_download .content h2 {
+        font-size: 31px;
+        line-height: 40px;
+        max-width: 410px;
+    }
+    .app_download .content .line {
+        height: 2px;
+    }
+    .app_download .content .download_btn .google {
+        display: block;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .app_download .wave_animation {
+        left: inherit;
+        right: 0;
+        top: 0;
+    }
+    .app_download .wave_animation .wave {
+        left: 20px;
+        top: 110px;
+    }
+    .app_download .triangle_shape3 {
+        left: 40%;
+    }
+    .app_download .mobile_area img {
+        border-radius: 41px;
+    }
+    
+    
+    /*----------faq section---------*/
+    .faq_section {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .faq_section .section_title {
+        max-width: 490px;
+    }
+    .faq_section .section_title {
+        margin-bottom: 50px;
+    }
+    
+    /*--------testimonial-------*/
+    .testimonial_section .section_title {
+        max-width: 380px;
+    }
+    .testimonial_section .bg_wrapper {
+        padding: 50px 40px 50px;
+    }
+    .partner_area {
+        padding: 100px 0 70px;
+    }
+    .testimonial_section .testimonial-text-slider .author_comment {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .cta3 {
+        padding: 70px 0;
+    }
+    .cta3 .bottom_right_shape,
+    .cta3 .bottom_left_shape,
+    .cta3 .top_right_shape {
+        display: none;
+    }
+    .cta3 .cta_content {
+        flex-flow: column wrap;
+        justify-content: center;
+        padding: 36px 40px 50px;
+        text-align: center;
+    }
+    .cta3 .cta_content .cta_button {
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+        min-width: 200px;
+        margin-top: 30px;
+    }
+    .cta3 .ctaShape {
+        -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    .partner_area ul li a {
+        margin: 0 20px;
+    }
+    
+    .footer_section {
+        padding: 84px 0 30px;
+    }
+    .footer_section .single_widget {
+        margin-bottom: 50px;
+    }
+    
+    /*----------------------home page-1 dark version---------------------*/
+    .home1_dark .cripto_banner .vector_img {
+        display: none;
+    }
+    .home1_dark .cripto_process .shape1 {
+        display: none;
+    }
+    .home1_dark .token_section {
+        padding-top: 80px;
+    }
+    
+    
+    /*------------------------home page-3 style--------------*/
+    .cripto_banner.v2 img.vector_img {
+        margin-left: 0;
+    }
+    .cripto_banner.v2 .banner_content h5.title_20 {
+        max-width: 620px;
+        padding-top: 15px;
+    }
+    .cripto_faq .faq_content h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .cripto_faq .faq_content h5.title_20 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .cripto_faq .faq_content .line {
+        width: 70px;
+    }
+    .cripto_faq .faq_content p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .cripto_banner.v2 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 5px);
+    }
+    
+    .token_section.v2 .overlay {
+        border-radius: 0;
+        top: 0;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .token_section.v2 .section_title {
+        margin-bottom: 40px;
+    }
+    .token_section.v2 .facts_wrapper .single_facts {
+        padding-right: 0;
+        text-align: center;
+    }
+    .token_section.v2 .countdown_area {
+        text-align: center;
+    }
+    .timeline_section_title {
+        padding-top: 0px;
+    }
+    .cripto_timeline .single_timeline {
+        margin-bottom: 50px;
+        width: 50%;
+    }
+    .cripto_timeline .single_timeline:nth-child(3):before,
+    .cripto_timeline .single_timeline:nth-child(4):before,
+    .cripto_timeline .single_timeline:nth-child(3):after,
+    .cripto_timeline .single_timeline:nth-child(4):after{
+        display: none;
+    }
+    .cripto_timeline {
+        padding-bottom: 29px;
+    }
+    .cripto_team {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    
+    .cripto_team .team_common {
+        width: 50%;
+    }
+    .cripto_team .team_common:nth-child(3n+3) {
+        border-right: 1px solid #f1f1f1;
+    }
+    .cripto_team .team_common:nth-child(3) {
+        border-top: 1px solid #f1f1f1;
+    }
+    .cripto_team .team_common:nth-child(2n+2) {
+        border-right: medium none;
+    }
+    .cta3 .cta_content .content_txt p {
+        margin: 0 auto;
+    }
+    
+    .partner_area.v2 {
+        padding: 80px 0;
+    }
+    .cta3.v2 {
+        padding: 87px 0 82px;
+    }
+    .footer_wrapper.v2 .footer_section {
+        padding: 120px 0 10px;
+    }
+    
+    
+    /*-------------home-4 (home-3 dark version) style------------*/
+    .home2_dark .cripto_banner.v2 .banner_content h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .home2_dark .cripto_banner.v2 .content_txt{
+        text-align: left;
+    }
+    .home2_dark .cripto_banner.v2 .banner_content .banner_btn a {
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+    }
+    .home2_dark .cripto_banner.v2 .wave {
+        display: block;
+    }
+    .home2_dark .token_section.v2 .overlay {
+        top: 0;
+    }
+    
+    
+    /*-----------------------home page-5 style---------------------------*/
+    .cripto_banner.v3 .row.align_center {
+        flex-flow: column-reverse nowrap;
+        height: auto;
+        padding: 110px 0 50px;
+    }
+    .cripto_banner.v3 .banner_content h1 {
+        margin-top: 0;
+    }
+    .cripto_banner.v3 .banner_content {
+        margin: 50px auto 0;
+        max-width: 550px;
+        min-height: auto;
+    }
+    .cripto_banner.v3 .banner_content .title_20 {
+        margin: 0 auto;
+    }
+    .cripto_banner.v3 .banner_img .main_img {
+        max-width: 100%;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon3 {
+        right: 335px;
+        top: 146px;
+        width: 37px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon2 {
+        right: 161px;
+        top: 150px;
+        width: 35px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon1 {
+        right: 252px;
+        top: 25px;
+        width: 30px;
+    }
+    .cripto_banner.v3 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 6px);
+        width: calc(101% - 8px);
+    }
+    .cripto_banner.v3 .banner_content .coin_price {
+        bottom: inherit;
+        margin-top: 60px;
+        position: relative;
+    }
+    
+    /*---------feature section-------*/
+    .cripto_feature {
+        padding-bottom: 24px;
+        padding-top: 80px;
+    }
+    .cripto_feature .single_feature {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cripto_feature .section_title h5.title_20 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .coin_convert_section.v3 {
+        padding-bottom: 90px;
+        padding-top: 85px;
+    }
+    
+    /*----------why us section---------*/
+    .whyus_section {
+        padding: 90px 0;
+    }
+    .whyus_section .single_item .content {
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .whyus_section .single_item .img_area {
+        margin-top: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    .whyus_section .single_item {
+        display: block;
+        margin-bottom: 70px;
+    }
+    
+    
+    /*-------process section-------*/
+    .cripto_process2 {
+        padding: 90px 0;
+    }
+    .cripto_process2 .process_icon .single_icon i {
+        font-size: 55px;
+    }
+    .cripto_process2 .process_icon .single_icon {
+        padding: 30px 20px;
+        width: 30.4%;
+    }
+    .cripto_process2 .process_icon .single_icon p {
+        padding-top: 10px;
+    }
+    
+    /*------token section------*/
+    .token_section.v3 {
+        padding-bottom: 90px;
+        padding-top: 80px;
+    }
+    .token_section.v3 .token_content {
+        text-align: center;
+    }
+    .token_section.v3 .countdown_area {
+        text-align: center;
+    }
+    .token_section.v3 a.token_collect_btn {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 260px;
+        display: block;
+    }
+    
+    .timeline_main_wrapper {
+        padding-top: 82px;
+    }
+    
+    /*-----app download------*/
+    .app_download.v2 .mobile_area {
+        display: none;
+        transform: translateX(-100px);
+    }
+    .app_download.v2 {
+        padding-top: 80px;
+    }
+    .app_download.v2 .content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .app_download.v2 .content h2 {
+        font-size: 32px;
+        line-height: 44px;
+        max-width: 100%;
+    }
+    .app_download.v2 .content .download_btn .google {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .partner_area.v3 .section_title {
+        margin-bottom: 40px;
+        max-width: 520px;
+    }
+    .partner_area.v3 .border__btm {
+        padding-bottom: 90px;
+    }
+    
+    .crypto_team2 {
+        padding-top: 84px;
+    }
+    .crypto_team2 .team_common {
+        width: 50%;
+        text-align: center;
+    }
+    .crypto_team2 .member_img {
+        margin: 0 auto;
+    }
+    .crypto_team2 .member_info .line {
+        margin: 12px auto;
+    }
+    
+    .cta3.v3 {
+        padding: 80px 0 90px;
+    }
+    
+    .crypto_contact {
+        padding-bottom: 90px;
+        padding-top: 83px;
+    }
+    .crypto_contact .contact_address {
+        height: auto;
+        margin-top: 50px;
+        padding: 45px 50px;
+    }
+    .footerv3 .fcontent_wrapper {
+        align-items: center;
+        flex-flow: column-reverse wrap;
+        height: 230px;
+        justify-content: center;
+        text-align: center;
+        padding: 30px 0;
+        height: auto;
+    }
+    .footerv3 .fcontent_wrapper .footer_left {
+        margin-top: 30px;
+    }
+    .footerv3 .footer_right .social_contact {
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+}/*--end media query 768-991px--*/
+
+
+/* ===================Medium Mobile Screen==============*/
+@media (max-width: 767px) {
+    .cripto_banner .banner_content {
+        height: auto;
+        min-height: 560px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    .cripto_banner .banner_content h1 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .cripto_banner .banner_content .banner_btn a {
+        font-size: 15px;
+        height: 50px;
+        line-height: 51px;
+        min-width: 200px;
+    }
+    .cripto_banner .banner_content .banner_btn .video a::after {
+        height: calc(101% - 4px);
+    }
+    .cripto_process .single_process {
+        margin-bottom: 50px;
+    }
+    .cripto_process .single_process h4.fw_700 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .cripto_process {
+        padding-bottom: 40px;
+    }
+    .token_section .currencies .single_currence {
+        min-height: 150px;
+        width: 29.5%;
+    }
+    .token_section .counter_wrapper .single-count h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .token_section .countdown_area {
+        text-align: center;
+    }
+    .token_section a.token_collect_btn {
+        display: block;
+        font-size: 16px;
+        height: 50px;
+        line-height: 51px;
+        margin: 35px auto 0;
+        min-width: inherit;
+        width: 200px;
+    }
+    
+    .about_us .about_content {
+        text-align: center;
+    }
+    .about_us .section_title {
+        text-align: center !important;
+    }
+    .about_us .facts_wrapper .single_facts {
+        padding-right: 50px;
+    }
+    .about_us .about_feature_img {
+        margin-top: 60px;
+    }
+    .about_us {
+        padding: 80px 0 66px;
+    }
+    
+    /*------app download-----*/
+    .app_download .content {
+        text-align: center;
+    }
+    .app_download .content h2 {
+        margin: 0 auto;
+    }
+    .app_download .content .line {
+        margin: 25px auto 65px;
+        width: 80px;
+    }
+    .app_download .content .download_btn .google {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    .app_download .mobile_area img {
+        border-radius: 41px;
+        display: block;
+        margin: 40px auto 0;
+        max-width: 280px;
+    }
+    .partner_area ul.align_row_center_center {
+        flex-wrap: wrap;
+    }
+    .partner_area ul > li {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .partner_area ul li a {
+        margin: 0 35px;
+    }
+    .cta3 .cta_content .content_txt h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .cta3 .cta_content {
+        padding: 36px 20px 50px;
+    }
+    .footer_section .col-lg-3.col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .footer_section .single_widget {
+        padding-top: 0;
+    }
+    footer .footer_content {
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    /*----------------home page-3 style-------------------*/
+    .cripto_header.v2 nav .signin_area li a {
+        min-width: 100px;
+    }
+    .cripto_banner.v2 .banner_wave_shape {
+        bottom: -40px;
+    }
+    .cripto_banner.v2 .banner_content {
+        height: 620px;
+    }
+    .cripto_banner.v2 .banner_content h1 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .cripto_banner.v2 img.vector_img {
+        display: none;
+    }
+    .cripto_banner.v2 .overlay {
+        bottom: -80px;
+    }
+    .cripto_faq {
+        padding-top: 130px;
+    }
+    .cripto_faq .single_faq {
+        display: block;
+    }
+    .cripto_faq .single_faq .faq_content {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .cripto_faq .single_faq:nth-child(2n+1) .faq_content {
+        padding-right: 0;
+    }
+    .cripto_faq .single_faq .img_area {
+        width: 100%;
+    }
+    .cripto_faq .single_faq:nth-child(2n) .faq_content {
+        padding-left: 0px;
+    }
+    .cripto_faq .single_faq {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .cripto_faq .faq_content .line {
+        margin: 0 auto;
+    }
+    .token_section.v2 .facts_wrapper .single_facts h3.title_36 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .token_section.v2 .facts_wrapper .single_facts p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .cripto_team .team_common {
+        float: none;
+        margin: 0 auto;
+        width: 320px;
+    }
+    
+    /*--------------------home-4 (home-3 dark version)---------------*/
+    .home2_dark .cripto_banner.v2 .content_txt {
+        text-align: center;
+    }
+    .home2_dark .cripto_banner.v2 .content_txt,
+    .home2_dark .cripto_banner.v2 .banner_img {
+        width: 100%;
+    }
+    .home2_dark .cripto_banner.v2 .banner_content {
+        flex-flow: column-reverse wrap;
+        height: auto;
+    }
+    .home2_dark .cripto_banner.v2 .banner_content .banner_btn a {
+        margin-right: 15px !important;
+    }
+    
+    
+    /*---------------------home page-5 style----------------------*/
+    .cripto_header.v3 .navbar-brand > img {
+        max-width: 160px;
+    }
+    .cripto_header.v3 nav .signin_area li.login a {
+        height: 37px;
+        line-height: 33px;
+        min-width: 100px;
+    }
+    .cripto_banner.v3 .row.align_center {
+        padding-bottom: 0;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon1 {
+        right: 186px;
+        top: 16px;
+        width: 22px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon2 {
+        right: 119px;
+        top: 109px;
+        width: 25px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon3 {
+        right: 249px;
+        top: 110px;
+        width: 27px;
+    }
+    .cripto_banner.v3 .banner_content {
+        margin: 0 auto;
+    }
+    .cripto_banner.v3 .banner_content h1 {
+        line-height: 40px;
+    }
+    .cripto_banner.v3 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 4px);
+        width: calc(101% - 7px);
+    }
+    .cripto_banner.v3 .banner_content .coin_price {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cripto_banner.v3 .banner_content .coin_price li {
+        margin-bottom: 31px;
+        margin-right: 0;
+        padding: 0 15px;
+        width: 50%;
+    }
+    .coin_convert_section.v3 .section_title h2 {
+        padding-bottom: 5px;
+    }
+    .cripto_process2 .process_icon .single_icon {
+        padding: 25px 10px;
+        width: 29.4%;
+    }
+    .cripto_process2 .process_icon .single_icon p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+    .cta3.v3 {
+        padding: 40px 0 60px;
+    }
+    .crypto_contact .section_title h2,
+    .crypto_team2 .section_title h2,
+    .partner_area.v3 .section_title h2 {
+        padding-bottom: 10px;
+    }
+    
+    .partner_area.v3 .border__btm {
+        padding-bottom: 30px;
+    }
+    
+    
+    
+}/*--end media query 576-767px--*/
+
+
+/* ==================Small Mobile Display==============*/
+
+
+/*-------only for screen 300px to 519px device for menu setup---------*/
+@media (min-width: 300px) and (max-width: 519px){
+    .cripto_header.sticky,
+    .cripto_header {
+        padding: 60px 0 5px;
+        position: absolute;
+        background: transparent;
+    }
+    .cripto_header.v2.sticky,
+    .cripto_header.v2 {
+        background: transparent;
+    }
+    .cripto_header nav .signin_area {
+        left: 50%;
+        padding-left: 0;
+        position: absolute;
+        top: -50px;
+        width: 219px;
+        width: 220px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .cripto_header .navbar-brand {
+        top: 10px;
+        left: 0;
+        position: absolute;
+    }
+    .cripto_header .navbar-light .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 3px;
+    }
+    .cripto_header .navbar-collapse {
+        margin-top: 54px;
+    }
+    .cripto_banner .triangle1 {
+        left: 75px;
+        margin-top: 30px;
+        top: 100px;
+    }
+    .cripto_banner .banner_content {
+        padding-top: 90px;
+    }
+    
+}/*--end media query 300-430px--*/
+
+
+/*-------only for screen 300px to 519px device for menu setup---------*/
+@media (min-width: 300px) and (max-width: 559px){
+    .cripto_header.v3.sticky,
+    .cripto_header.v3 {
+        padding: 60px 0 5px;
+        position: absolute;
+        background: transparent;
+    }
+    .cripto_header.v2.sticky,
+    .cripto_header.v2 {
+        background: transparent;
+    }
+    .cripto_header.v3 nav .signin_area {
+        left: 0;
+        padding-left: 0;
+        position: absolute;
+        top: -50px;
+        width: 190px;
+        -webkit-transform: translateX(-0%);
+        -ms-transform: translateX(-0%);
+        -o-transform: translateX(-0%);
+        transform: translateX(-0%);
+    }
+    .cripto_header.v3 .navbar-brand {
+        top: 10px;
+        left: 0;
+        position: absolute;
+    }
+    .cripto_header.v3 .language_select {
+        position: absolute;
+        right: 7px;
+        top: -42px;
+    }
+    .cripto_header.v3 .navbar-collapse {
+        margin-top: 54px;
+    }
+    .cripto_banner.v3 .row.align_center {
+        padding-top: 150px;
+    }
+    .cripto_banner.v3 .banner_content {
+        padding-top: 40px;
+    }
+    
+}/*--end media query 300-430px--*/
+
+@media (max-width: 575px) {
+
+    .cripto_header .navbar-brand > img {
+        width: 160px;
+    }
+    .cripto_banner .banner_content h1 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .cripto_banner .banner_content .title_20 {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .cripto_banner .banner_content .banner_btn li {
+        display: block;
+        margin: 0;
+    }
+    .cripto_banner .banner_content .banner_btn a {
+        margin: 15px 0;
+    }
+    .cripto_banner .banner_content .banner_btn .video a::after {
+        height: calc(101% - 5px);
+        width: calc(101% - 6px);
+    }
+    .section_title h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .section_title h4 {
+        font-size: 18px;
+    }
+    .token_section .available_title li:last-child a {
+        white-space: nowrap;
+    }
+    .token_section .currencies .single_currence {
+        min-height: 90px;
+        width: 26.4%;
+    }
+    .token_section .currencies .single_currence > img {
+        width: 55px;
+    }
+    .token_section .counter_wrapper .single-count {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .coin_convert_section .currency_select_area #coin_icon2,
+    .coin_convert_section .currency_select_area #coin_icon {
+        left: 14px;
+        width: 50px;
+    }
+    .coin_convert_section .currency_select_area .nice-select {
+        font-size: 17px;
+        padding-left: 73px;
+    }
+    .coin_convert_section .currency_select_area span.sells {
+        left: 76px;
+    }
+    .about_us .facts_wrapper .single_facts {
+        float: none;
+        width: 200px;
+        margin: 0 auto 40px;
+        padding-right: 0;
+    }
+    .app_download .triangle_shape1 {
+        left: 50%;
+    }
+    .app_download .content h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .app_download .content .download_btn .google {
+        display: block;
+        margin-right: 0;
+    }
+    .app_download .mobile_area {
+        display: none;
+    }
+    .testimonial_section .testimonial-image-slider .slick-arrow.fa-long-arrow-right {
+        right: -25px;
+    }
+    .testimonial_section .testimonial-image-slider .slick-arrow.fa-long-arrow-left {
+        left: -25px;
+    }
+    .partner_area ul.align_row_center_center {
+        display: block;
+    }
+    .testimonial_section .shape {
+        display: none;
+    }
+    .partner_area ul > li {
+        width: 100%;
+    }
+    .partner_area ul li a img {
+        width: auto;
+        max-width: 100%;
+    }
+    .footer_section .col-lg-3.col-md-6 {
+        float: none;
+        width: 100%;
+    }
+    .footer_section .single_widget h5.title {
+        padding-bottom: 10px;
+    }
+    
+    
+    /*-------------------home page-3 style-----------------*/
+    .cripto_banner.v2 .overlay {
+        display: none;
+    }
+    .cripto_banner.v2 .banner_wave_shape {
+        bottom: -25px;
+    }
+    .cripto_banner.v2 .banner_content {
+        height: 620px;
+    }
+    .cripto_banner.v2 .banner_content h1 {
+        margin-top: 0;
+    }
+    .cripto_faq {
+        padding-top: 70px;
+    }
+    .token_section.v2 .facts_wrapper .single_facts {
+        float: none;
+        margin: 0 auto 40px;
+        padding-right: 0;
+        width: 200px;
+    }
+    .cripto_timeline .single_timeline {
+        float: none;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .cripto_timeline .single_timeline:nth-child(2)::before,
+    .cripto_timeline .single_timeline:nth-child(2)::after {
+        display: none;
+    }
+    .cripto_team .team_common {
+        width: 280px;
+        border-right: none!important;
+    }
+    
+    .footer_wrapper.v2 .footer_section {
+        padding: 90px 0 10px;
+    }
+    .footer_wrapper.v2 .widget1 .language_select {
+        padding-top: 30px;
+    }
+    
+    
+    .home2_dark .cripto_banner.v2 .banner_content {
+        height: auto;
+    }
+    
+    /*---------------------home page-5 style-------------------------*/
+    .cripto_banner.v3 .banner_img.pos_relative {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon1 {
+        right: 101px;
+        top: 0px;
+        width: 16px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon2 {
+        right: 64px;
+        top: 56px;
+        width: 17px;
+    }
+    .cripto_banner.v3 .banner_img .jumping_icon3 {
+        right: 135px;
+        top: 51px;
+        width: 18px;
+    }
+    .cripto_banner.v3 .banner_content h1 {
+        font-size: 26px;
+    }
+    .cripto_banner.v3 .banner_content .banner_btn .video a::after {
+        height: calc(101% - 4px);
+        width: calc(101% - 6px);
+    }
+    .whyus_section .single_item .content h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .whyus_section .single_item h3.title_20 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .cripto_process2 .process_wrapper .process_icon {
+        display: block;
+        margin-left: 0;
+    }
+    .cripto_process2 .process_icon .single_icon {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        width: 100%;
+    }
+    .cripto_process2 .process_content h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .token_section.v3 .token_content h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .token_section.v3 .token_content h5 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .timeline_main_wrapper .section_title .title_20 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .app_download.v2 .content h2 {
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 100%;
+    }
+    .app_download.v2 .content .download_btn .google {
+        display: block;
+        margin-right: 0;
+    }
+    .crypto_team2 .team_common {
+        float: none;
+        margin: 0 auto 20px;
+        max-width: 300px;
+        text-align: center;
+        width: 100%;
+    }
+    .crypto_contact .abform_area .abinput_group {
+        float: none;
+        width: 100%;
+    }
+    .crypto_contact .abform_area .abinput_group:nth-child(2n) {
+        margin-left: 0;
+    }
+    .crypto_contact .abform_area button {
+        font-size: 23px;
+        height: 50px;
+        width: 50px;
+    }
+    .crypto_contact .abform_area .abinput_group.msg textarea {
+        padding-right: 60px !important;
+    }
+    .crypto_contact .contact_address {
+        height: auto;
+        margin-top: 50px;
+        padding: 45px 15px;
+    }
+    .crypto_contact .contact_address h4 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .footerv3 .subscribe {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+    .footerv3 .subscribe input {
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+        background: rgba(0, 0, 0, 0.13);
+    }
+    .footerv3 .footer_right .subscribe button {
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    
+    
+    
+    
+}/*--end media query 0-575px--*/
+
+
+
+
+
+
