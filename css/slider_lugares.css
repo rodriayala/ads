@@ -1,0 +1,570 @@
+
+.color_839 {
+    color: #8392a2;
+}
+
+
+.bg_color_40d{
+    background: #40d58d;
+}
+
+.popins {
+    font-family: 'Poppins', sans-serif;
+} 
+.playfair {
+    font-family: 'Playfair Display', serif;
+} 
+
+.section_padding {
+    padding: 150px 0;
+}
+.section_padding2 {
+    padding: 140px 0 150px;
+}
+
+
+.footer_section .footer_right .subscribe button,
+.testimonial_section .owl-next,
+.testimonial_section .owl-prev,
+.popular_destination .owl-next,
+.popular_destination .owl-prev {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.cta_section .section_title .book_trip::before,
+.cta_section .section_title .book_trip::after {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/*---------------1.1 start header section style--------------*/
+.travel_header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.travel_header .menuzord {
+    padding: 0;
+}
+.travel_header .stuck_menu .menuzord-menu > li > a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 26px 25px;
+    text-transform: capitalize;
+    -webkit-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+.travel_header .stuck_menu .menuzord-menu > li > a:hover,
+.travel_header .stuck_menu .menuzord-menu > li.active > a {
+    opacity: 0.7;
+}
+/*---------------1.1 end header section style--------------*/
+
+
+/*---------------1.2 start banner section style--------------*/
+.travel_banner {
+    background: url(images/banner_bg.jpg) no-repeat center center / cover;
+}
+.travel_banner .overlay {
+    background-image: -moz-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background-image: -webkit-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background-image: -ms-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    opacity: 0.922;
+}
+.travel_banner .social_contact {
+    top: 50%;
+    right: 100px;
+    z-index: 1;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.travel_banner .social_contact li {
+    margin-top: 10px;
+}
+.travel_banner .social_contact a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 38px;
+}
+.travel_banner .social_contact a:hover {
+    background: #fff;
+    color: #0351ff;
+}
+.travel_banner .banner_wrapper {
+    height: 100vh;
+}
+.travel_banner .banner_content{
+    padding-right: 70px;
+}
+.travel_banner .banner_content > h1 {
+    font-size: 65px;
+    line-height: 80px;
+}
+.travel_banner .banner_content > p {
+    font-size: 17px;
+    line-height: 34px;
+    padding-top: 50px;
+}
+.travel_banner .banner_img img {
+    border-radius: 5px;
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.travel_banner .banner_img > span {
+    height: 120px;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 120px;
+    border-radius: 100%;
+    background-image: -moz-linear-gradient( -35deg, rgba(3, 80, 255, 0.7) 0%, rgba(20, 252, 140, 0.7) 100%);
+    background-image: -webkit-linear-gradient( -35deg, rgba(3, 80, 255, 0.7) 0%, rgba(20, 252, 140, 0.7) 100%);
+    background-image: -ms-linear-gradient( -35deg, rgba(3, 80, 255, 0.7) 0%, rgba(20, 252, 140, 0.7) 100%);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.travel_banner .banner_img .venobox {
+    font-size: 50px;
+}
+.travel_banner .banner_img .venobox:hover {
+    color: #fff;
+}
+/*---------------1.2 end banner section style--------------*/
+
+
+/*---------------1.3 start Travel Feature Section--------------*/
+.section_title {
+    max-width: 840px;
+    width: 100%;
+    padding-left: 100px;
+    position: relative;
+    padding-bottom: 90px;
+}
+.section_title > h1::before {
+    background: #1ff28a;
+    content: "";
+    height: 2px;
+    left: -100px;
+    position: absolute;
+    top: 35px;
+    width: 70px;
+}
+.travel_feature a.book_trip {
+    border-radius: 5px;
+    background-color: rgb(18, 94, 248);
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.travel_feature a.book_trip:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+.travel_feature .single_feature {
+    padding-left: 80px;
+    padding-right: 0;
+    position: relative;
+    
+}
+.travel_feature .single_feature > i {
+    display: block;
+    font-size: 60px;
+    left: 0;
+    line-height: normal;
+    position: absolute;
+    top: -10px;
+    background-image: -moz-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background-image: -webkit-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background-image: -ms-linear-gradient( -35deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*---------------1.3 end Travel Feature Section--------------*/
+
+
+/*---------------1.4 start Popular Destination Section--------------*/
+.popular_destination{
+    background: #f6f9fd;
+    overflow: hidden;
+}
+.popular_destination .overlay {
+    border-bottom: 970px solid #eff3f9;
+    border-right: 1904px solid transparent;
+}
+.popular_destination .single_destination {
+    background: #fff;
+    border-radius: 5px;
+}
+.popular_destination .single_destination .img_area img {
+    border-radius: 5px 5px 0 0;
+}
+.popular_destination .single_destination .img_title {
+  padding: 20px 30px;
+}
+.popular_destination .single_destination .img_title h4 > a {
+    color: #333333;
+    font-weight: 600;
+}
+.popular_destination .single_destination .img_title h4 > a:hover {
+    color: #125ef8;
+}
+.popular_destination .single_destination .img_title span {
+    color: #666666;
+    font-size: 15px;
+}
+.popular_destination .single_destination .img_title span i {
+    color: rgb(3, 80, 255);
+}
+
+.popular_destination .owl-nav {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -231px;
+    width: 134px;
+}
+.popular_destination .owl-next,
+.popular_destination .owl-prev {
+    background: #fff;
+    border-radius: 100%;
+    color: #5a5a5a;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    margin: 0 8px;
+    padding: 13px 10px;
+    text-align: center;
+    position: relative;
+    width: 50px;
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.04);
+}
+.popular_destination .owl-next:hover,
+.popular_destination .owl-prev:hover {
+    box-shadow: none;
+}
+/*---------------1.4 end Popular Destination Section--------------*/
+
+
+/*---------------1.5 start testimonial section style--------------*/
+.testimonial_section {
+    position: relative;
+}
+.testimonial_section .section_title > p {
+    color: #afacce;
+}
+.testimonial_section .author_img {
+    border: 2px solid #eeeeee;
+    height: 270px;
+    width: 270px;
+}
+.testimonial_section .author_img img {
+    width: 100%;
+    height: 100%;
+}
+.testimonial_section .author_info {
+    padding-left: 100px;
+    width: 75%;
+}
+.testimonial_section .author_info h5 {
+    color: #125ef8;
+}
+.testimonial_section .author_comment {
+    font-size: 24px;
+    line-height: 38px;
+}
+.testimonial_section .owl-nav {
+    margin-top: 0;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: -200px;
+    width: 133px;
+}
+.testimonial_section .owl-next,
+.testimonial_section .owl-prev {
+    background: #fff;
+    border-radius: 100%;
+    color: #949494;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    margin: 0 8px;
+    padding: 13px 10px;
+    position: relative;
+    width: 50px;
+    text-align: center;
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial_section .owl-next:hover,
+.testimonial_section .owl-prev:hover {
+    background: #125ef8;
+    color: #fff;
+}
+/*---------------1.5 end testimonial section style--------------*/
+
+
+/*---------------1.6 start upcoming event section style--------------*/
+.upcoming_event{
+    background: #f6f9fd;
+    overflow: hidden;
+}
+.upcoming_event .overlay {
+    border-bottom: 1110px solid #eff3f9;
+    border-left: 1904px solid transparent;
+}
+.upcoming_event a.book_trip {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #125ef8;
+    font-size: 18px;
+    height: 47px;
+    line-height: 48px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    top: 13px;
+    width: 170px;
+}
+.upcoming_event a.book_trip:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.upcoming_event .single_event {
+    margin-bottom: 80px;
+}
+.upcoming_event .single_event:last-child {
+    margin-bottom: 0px;
+}
+.upcoming_event .event_img img {
+    border-radius: 5px;
+    height: 250px;
+    width: 270px;
+    box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0.2);
+}
+
+.upcoming_event .single_event .event_date {
+    max-width: 290px;
+    padding-left: 60px;
+    padding-right: 30px;
+    width: 100%;
+}
+.upcoming_event .single_event .event_place {
+    width: 50%;
+}
+.upcoming_event .single_event .event_place h4 a {
+    color: #333333;
+}
+.upcoming_event .single_event .event_place h4 a:hover {
+    color: #125ef8;
+}
+/*---------------1.6 end upcoming event section style--------------*/
+
+
+/*---------------1.7 start cta section style--------------*/
+.cta_section {
+    background: url(images/cta_bg.jpg) no-repeat center center / cover;
+    padding: 220px 0 230px;
+}
+.cta_section .overlay {
+    background-color: rgb(6, 29, 75);
+    opacity: 0.922;
+}
+.cta_section .section_title {
+    max-width: 100%;
+    padding-bottom: 0;
+}
+.cta_section .section_title h6.title_20 {
+    max-width: 720px;
+    width: 100%;
+}
+.cta_section .section_title .book_trip{
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    margin-top: 45px;
+    z-index: 1;
+}
+.cta_section .section_title .book_trip::before {
+    background: -moz-linear-gradient( 0deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background: -webkit-linear-gradient( 0deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background: -ms-linear-gradient( 0deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    visibility: visible;
+    border-radius:5px;
+}
+.cta_section .section_title .book_trip::after {
+    background: -moz-linear-gradient( 180deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background: -webkit-linear-gradient( 180deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    background: -ms-linear-gradient( 180deg, rgb(3, 80, 255) 0%, rgb(20, 252, 140) 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    border-radius:5px;
+}
+.cta_section .section_title .book_trip:hover:after{
+    opacity: 1;
+    visibility: visible;
+}
+.cta_section .section_title .book_trip:hover:before{
+    opacity: 0;
+    visibility: hidden;
+}
+/*---------------1.7 end cta section style--------------*/
+
+
+/*---------------1.8 start footer section style--------------*/
+.footer_section .fcontent_wrapper {
+    height: 230px;
+}
+.footer_section .copyright {
+    color: #666;
+    margin-top: 10px;
+}
+.footer_section .copyright a{
+    color: #125ef8;
+    text-decoration: underline;
+}
+.footer_section .copyright a:hover{
+    text-decoration: none;
+}
+
+.footer_section .subscribe {
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 490px;
+}
+.footer_section .subscribe input {
+    background: none;
+    border: medium none;
+    color: #969aa1;
+    float: right;
+    margin-bottom: 0;
+    padding-left: 0;
+    height: 40px;
+    width: 77%;
+}
+.footer_section .footer_right .subscribe button {
+    background: none;
+    border: medium none;
+    color: #002222;
+    cursor: pointer;
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 110px;
+}
+.footer_section .footer_right .subscribe button:hover {
+     color: #125ef8;
+}
+.footer_section .footer_right .subscribe button i {
+    font-size: 17px;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.footer_section .footer_right .social_contact {
+    margin-top: 22px;
+    text-align: right;
+    width: 100%;
+}
+.footer_section .footer_right .social_contact a {
+    color: #666666;
+    font-size: 17px;
+    margin-left: 10px;
+    padding: 0 7px;
+}
+.footer_section .footer_right .social_contact a:hover {
+    color: #125ef8;
+}
+.footer_section .footer_right .social_contact li:last-child a {
+    padding-left: 0;
+}
+.footer_section .footer_right .social_contact li:first-child a {
+    margin-left: 0;
+}
+/*---------------1.8 end footer section style--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
