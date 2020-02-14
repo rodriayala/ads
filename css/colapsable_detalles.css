@@ -29,7 +29,7 @@ background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, F
     font-weight: bold;
     height: 32px;
     margin-right: 15px;
-    padding: 6px;
+    /*padding: 6px;*/
     text-align: center;
     width: 32px;
 }
