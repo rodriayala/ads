@@ -3481,7 +3481,16 @@ section {
 }
 
 .wrap:hover {
-    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    /*background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);*/
+    background: linear-gradient(135deg,#AA17E1 0%,#490ACD 100%);
+    color: white;
+}
+
+.wrap:hover p{
+    color: white;
+}
+
+.wrap:hover .mbr-iconfont{
     color: white;
 }
 
@@ -3521,7 +3530,8 @@ p {
 }
 .display-6 {
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1 rem}
+    font-size: 1 rem;
+}
 
 /*ro*/
 .section_title_aprende {
