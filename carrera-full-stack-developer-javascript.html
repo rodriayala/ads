@@ -44,6 +44,57 @@
     <link rel="stylesheet" href="css/slider_lugares.css">
 
     <link rel="stylesheet" href="css/colapsable_detalles.css">
+    <script>
+function sendContact() {
+	var valid;	
+	//valid = validateContact();
+	if(valid) {
+		jQuery.ajax({
+		url: "consultas.php",
+		data:'name='+$("#name").val()+'&email='+$("#email").val()+'&message='+$("#message").val(),
+		type: "POST",
+		success:function(data){
+		$("#mail-status").html(data);
+		},
+		error:function (){}
+		});
+	}
+}
+
+function validateContact() {
+	var valid = true;	
+	$(".demoInputBox").css('background-color','');
+	$(".info").html('');
+	
+	if(!$("#userName").val()) {
+		$("#userName-info").html("(required)");
+		$("#userName").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userEmail").val()) {
+		$("#userEmail-info").html("(required)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#userEmail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+		$("#userEmail-info").html("(invalid)");
+		$("#userEmail").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#subject").val()) {
+		$("#subject-info").html("(required)");
+		$("#subject").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	if(!$("#content").val()) {
+		$("#content-info").html("(required)");
+		$("#content").css('background-color','#FFFFDF');
+		valid = false;
+	}
+	
+	return valid;
+}
+</script>
 </head>
 
 <body data-spy="scroll" data-target="#cripto_scrollspy" data-offset="80">
@@ -316,13 +367,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Enviar Consulta</button>
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onClick="sendContact();">Enviar Consulta</button>
                                 </div>
                             </div>
                         </form>
 
                     </div>
-                    <!--<a href="#" class="token_collect_btn">Collect Token</a>-->
                 </div>
 
             </div>
@@ -418,7 +468,6 @@
     ==End footer section==
     =======================================-->
     <div class="footer_wrapper v2 pos_relative" id="contacto">
-       <!-- <img src="images/home2_imgs/footer_wave.png" alt="wave img" class="footer_wave">-->
         <span class="footer_shape"></span>
         <span class="footer_shape2"></span>
         <section class="footer_section">
@@ -433,28 +482,25 @@
                                         <div class="form-group">
                                             <label for="name">
                                                 Nombre</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Tu Nombre" required />
+                                            <input type="text" class="form-control" id="name_fot" placeholder="Tu Nombre" required />
                                         </div>
                                         <div class="form-group">
                                             <label for="email">
                                                 Correo Electronico</label>
                                             <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                                <input type="email" class="form-control" id="email" placeholder="Tu Correo" required /></div>
+                                              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                               <input type="email" class="form-control" id="email_fot" placeholder="Tu Correo" required /></div>
                                         </div>
 
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="name">
-                                                Consulta</label>
-                                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required placeholder="Consulta"></textarea>
+                                            <label for="name"> Consulta</label>
+                                            <textarea name="message" id="message_fot" class="form-control" rows="9" cols="25" required placeholder="Consulta"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                            Enviar Consulta</button>
+                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onClick="sendContact_fot();">Enviar Consulta</button>
                                     </div>
                                 </div>
                             </form>
