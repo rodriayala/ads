@@ -3559,7 +3559,46 @@ p {
     background-color: #580A9A;
 }
 
+/*inscripcion*/
+.token_section.v8 .overlay {
+    background: rgb(239, 244, 252);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff4fc', endColorstr='#ffffff', GradientType=0);
 
+    border-radius: 0 480px 0 0;
+    -webkit-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    transform: rotate(-9deg);
+    top: 224px;
+    right: -170px;
+    width: 200%;
+    height: 200%;
+    left: inherit;
+}
+.token_section.v8 .countdown_area {
+    background-color: white !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa17e1', endColorstr='#460acc', GradientType=1);
+}
+
+.card-text {
+    color: white;
+}
+
+/*.card-title{
+    background-color: blueviolet;
+    color: white;
+}*/
+.fechas{
+    color: #fff;
+    background: rgb(170, 23, 225);
+    background: -moz-linear-gradient(-45deg, rgba(170, 23, 225, 1) 17%, rgba(70, 10, 204, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(170, 23, 225, 1) 17%, rgba(70, 10, 204, 1) 100%);
+    background: linear-gradient(135deg, rgba(170, 23, 225, 1) 17%, rgba(70, 10, 204, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa17e1', endColorstr='#460acc', GradientType=1);
+}
+.fechas a{
+    color: white;
+}
 
 
 

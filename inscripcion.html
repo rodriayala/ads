@@ -117,7 +117,7 @@ function validateContact() {
             <div class="row">
                 <div class="col-12">
                     <nav class="navbar navbar-expand-xl navbar-light">
-                        <a class="navbar-brand order-1" href="#"><img src="img/logo.png" alt="logo"></a>
+                        <a class="navbar-brand order-1" href="index.html"><img src="img/logo.png" alt="logo"></a>
                         <button class="navbar-toggler order-3" type="button" data-toggle="collapse" data-target="#cripto_nav" aria-controls="cripto_nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                     </nav>
@@ -133,7 +133,7 @@ function validateContact() {
     <!-- =======================================
        ==start modalidad section==
        ======================================= -->
-    <section id="token" class="token_section v2 pos_relative">
+    <section id="inscripcion" class="token_section v8 pos_relative">
 
         <div class="container">
             <div class="row">
@@ -147,8 +147,9 @@ function validateContact() {
             <div class="row">
 
                 <div class="col-lg-12 offset-lg-12">
-                    <div class="countdown_area bg_ff radius_5">
-                        <h4 class="color_ff fw_600">Déjanos tus datos para que nuestro equipo pueda asesorarte</h4>
+                    <div class="countdown_area bg_ff radius_5" style="background-color: white !important;">
+                        <h4 class=" fw_600">Déjanos tus datos para que nuestro equipo pueda asesorarte.</h4>
+                        <br>
 
                         <form>
                             <div class="row">
@@ -156,6 +157,7 @@ function validateContact() {
                                     <div class="form-group">
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
                                         <input type="text" class="form-control" id="name" placeholder="Nombre" required="required" />
+                                        <input type="text" class="form-control" id="ape" placeholder="Apellido" required="required" />
                                     </div>
                                     <div class="form-group">
                                         <div class="input-group">
@@ -167,12 +169,10 @@ function validateContact() {
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
                                         <input type="text" class="form-control" id="telefono" placeholder="Telefono Móvil" required="required" />
                                     </div>
-                                    <div class="form-group">
-                                        <label for="name">Consulta</label>
 
-                                    </div>
+
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onClick="sendContact();">Enviar Consulta</button>
+                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onClick="sendContact();">Enviar Datos</button>
                                     </div>
                                 </div>
 
