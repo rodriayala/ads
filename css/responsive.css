@@ -106,11 +106,13 @@
         min-width: 100px;
     }
     .cripto_banner.v2 .banner_content {
-        height: 740px;
+        /*height: 740px; old*/
+        height: 500px;
     }
     .cripto_faq {
         padding-bottom: 60px;
-        padding-top: 260px;
+        /*padding-top: 260px;*/
+        padding-top: 1px;
     }
     .cripto_faq .shape1 {
         left: -300px;
