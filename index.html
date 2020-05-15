@@ -146,8 +146,7 @@ function validateContact() {
                                     </ul>
                                 </li>
 
-                                </li>
-                                <li><a href="#aulas" class="nav-link anchor">Aulas</a></li>
+                                </li>                                
                                 <li><a href="#anotate" class="nav-link anchor">Anotáte</a></li>
                                 <li><a href="#contacto" class="nav-link anchor">Contacto</a></li>
                             </ul>
@@ -183,7 +182,7 @@ function validateContact() {
          <span class="d_block wave wave2"></span>
          <div class="container">
              <div class="row">
-                 <div class="col-12">
+                 <div class="col-7">
                      <div class="banner_content align_col_center_center ">
                          <h1 class="fw_700 color_ff">Se Parte del Futuro,</h1>
                          <h1 class="fw_700 color_ff">Aprendé Programación.</h1>
@@ -194,6 +193,31 @@ function validateContact() {
                          </ul>-->
                      </div>
                  </div>
+
+                <div class="col-5">  
+                    <div class="form-area form-area-top">  
+                        <form role="form ">
+                            <br style="clear:both">
+                            <h3 style="margin-bottom: 25px; text-align: center;">Quiero sumarme a </h3>
+                            <div class="form-group ">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="surname" name="surname" placeholder="Apellido" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Whatsapp" required="required">
+                            </div>                
+                           
+                            <button type="submit" class="btn btn-primary pull-right btnContactUs" id="btnContactUs" onClick="sendContact();">Enviar Datos</button>
+                        </form>
+                    </div>
+                </div>
+
+
              </div>
          </div>
      </section>
@@ -201,6 +225,131 @@ function validateContact() {
      ==End banner section==
      =======================================-->
 
+
+  <section id="prices">
+      <div class="container"> 
+      
+           <div class="row">
+                 <div class="col-lg-12 col-lg-offset-23 text-center">  
+                      <h2>Estructura de la Carrera Full Stack Javascript</h2>
+                      
+                 </div> 
+           </div> 
+
+           <div class="prices-box">
+              <div class="row">
+             
+               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 price-table aos-init aos-animate" data-aos="fade-right" style="top: 42px;">
+               
+                    <div class="top-content text-center">
+                    
+                        <div class="title_lang">
+                            <h5>Maquetación con HTML5</h5>
+                        </div>
+
+                     </div>
+                     
+                     <div class="bottom-content text-center">
+                        <ul class="features-border list-unstyled">
+                            <li>2 Meses - 16 Clases</li>                                            
+                        </ul>                        
+                         <p class="p_cursos"> Introducción al HTML, en esta etapa vas a aprender todo el lenguaje de Maquetación con todas  
+                            las etiquetas, hojas de estilo y las herramientas modernas de centrado. FlexBox y Bootstrap.
+                            Al finalizar esta etapa vas a poder hacer cualquier pagina web desde el maquetado.
+                         </p>   
+                                            
+                     </div>
+                        
+                </div>
+               
+               <div id="Programacion" class="col-lg-9"> 
+                <div class="row row_prog">
+                  <div class="title_prog">
+                    <h4>Programación</h4>
+                  </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
+                     
+                          <div class="top-content text-center">
+                          
+                              <div class="title_lang">
+                                  <h5>Front End Javascript Básico</h5>
+                              </div>
+                              
+                           </div>
+                           
+                           <div class="bottom-content text-center">
+                             <ul class="features-border list-unstyled">
+                                <li>2 Meses - 16 Clases</li>                                            
+                             </ul>                        
+                             <p class="p_cursos">Aquí daras los primeros pasos como programador. 
+                             Vas a aprender los conceptos básicos de Programación, tambien vas a trabajar con
+                             diferentes tipos de Variables, Modificar elementos del HTML con Javascript y
+                             Interactuar con el navegador y el usuario.
+                           </p>
+
+                              
+                           </div>
+                           
+                      </div>
+                
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-left">
+                     
+                          <div class="top-content text-center">
+                          
+                              <div class="title_lang">
+                                  <h5>Back End NodeJS y Express</h5>
+                              </div>
+                              
+                           </div>
+                           
+                           <div class="bottom-content text-center">
+                              <ul class="features-border list-unstyled">
+                                <li>2 Meses - 16 Clases</li>                                            
+                             </ul>                        
+                             <p class="p_cursos">
+                               Programación en Javascript del lado del servidor. Aprenderas a desarrollar aplicaciones Web con Nodejs de la forma más eficiente y performante. Utilizando Express.
+                               Tambien podras crear API RESTFul, Manipular base de datos SQL y NoSql.
+                               Tanto MySQL como Mongo.
+                             </p>              
+                           </div>
+                           
+                      </div>
+  
+
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-left">
+                     
+                          <div class="top-content text-center">
+                          
+                              <div class="title_lang">
+                                  <h5>Front End Avanzado React</h5>
+                              </div>
+                              
+                           </div>
+                           
+                           <div class="bottom-content text-center">
+                              <ul class="features-border list-unstyled">
+                                    <li>2 Meses - 16 Clases</li>                                            
+                             </ul>                        
+                             <p class="p_cursos">                       
+                             Vas a aprender a crear componentes, contenedores, jsx y redux, todas las herramientas necesarias para crear un front end de nivel profesional.
+                             </p>                   
+                           </div>
+                           
+                      </div>
+
+
+
+          </div>
+        </div>
+
+
+
+               </div> 
+            </div>  
+            
+        </div>
+    </section>
+    
 
     <!-- =======================================
     ==start process section==
@@ -384,49 +533,7 @@ function validateContact() {
     =======================================-->
 
 
-    <section id="aulas" class="cta_common cta3 v2 pos_relative">
-    <div class="container">
-        <h2 class="color_4e1 fw_700">Nuestras Aulas</h2>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/10p-portada-1226x500.jpg);" class="image-grid-cover">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/15p-portada-1-1226x500.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/20p-portada-1-1226x500.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/30p-portada-1226x500.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/35p-portada-1226x500.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                <div style="background-image: url(img/45p-portada-1226x500.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="#" class="cover-wrapper"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
+   
     <!-- =======================================
     ==start call to action section==
     =======================================-->

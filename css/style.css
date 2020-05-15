@@ -3615,10 +3615,124 @@ p {
     color: gray;
 }
 
+.form_top{
+    background: white;
+    top: 80px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.form-area-top
+{
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 56px 0px 60px;
+    border: 1px solid GREY;
+    border-radius: 12px;
+    font-family: Eina,sans-serif;
+   
+}
+
+.form-area-top h3
+{
+    font-weight: 700;
+}
+
+.btnContactUs{
+    width: 100%;
+}
 
 
 
 
+.row_prog
+{
+    background-color: #FFC007;
+    border-radius: 10px 10px 10px 10px;
+    border-right: 8px solid #FFC007;
+    border-bottom: 8px solid #FFC007;
+    border-left: 8px solid #FFC007;
+    border-top: 8px solid #FFC007;
+    padding-bottom: 10px;
+}
 
+.title_prog
+{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
 
+.title_prog h4
+{
+    font-weight: 700;
+    color: white;
+}
+
+.title_lang
+{
+    color: white;
+    text-align: left;
+}
+
+.p_cursos
+{
+    text-align: left;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+.big-price span{
+    color: #333;
+    font-size:40px;
+}
+
+.btn-price{
+    background-color:#5db4c0;
+    color: #fff;
+    border-radius:50%; 
+    border:none;
+    padding:40px 20px; 
+    font-size: 13px;
+    font-weight: 600;
+    margin-top:20px;
+}
+
+.prices-box{
+    margin:50px 0px;
+}
+
+.top-content{
+    background-color:#4d4d4d;
+    padding:20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bottom-content{
+    background-color:#f6f6f6;
+    border-radius: 0 0 10px 10px;
+}
+
+#prices h3{
+    color:#FFF;
+}
+
+#prices .features li{
+    padding:10px;
+}
+
+#prices .btn.btn-default{
+    margin:20px 0px;
+}
+
+#prices .features-border li{
+    border-top:1px solid #c7c7c7;
+    padding: 10px 0px;
+}
+
+#prices .features-border li:last-child{
+    border-bottom:1px solid #c7c7c7;
+}
 
