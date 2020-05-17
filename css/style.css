@@ -3771,3 +3771,10 @@ p {
     overflow: hidden;
     margin-bottom: 1.5rem;
 }
+
+
+@media (min-width: 300px) {
+  #Programacion{
+    margin-top: 20px;
+  }
+}
