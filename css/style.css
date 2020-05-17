@@ -70,9 +70,7 @@
     background: url(images/banner_bg.jpg) no-repeat right bottom / cover;
     overflow: hidden;
 }
-.cripto_banner .bitcoin{
-    
-}
+
 .cripto_banner .banner_content{
     height: 100vh;
     z-index: 2;
@@ -3641,6 +3639,8 @@ p {
 
 .btnContactUs{
     width: 100%;
+    background-color: #4509A0;
+    border-color: #4509A0; 
 }
 
 
@@ -3662,18 +3662,27 @@ p {
     width: 100%;
     text-align: center;
     font-weight: 700;
+
 }
 
 .title_prog h4
 {
     font-weight: 700;
     color: white;
+    padding-bottom: 10px;
 }
 
 .title_lang
 {
     color: white;
-    text-align: left;
+    /*text-align: left;*/
+}
+
+.title_black
+{
+    color: black;
+    /*font-weight: bold !important;*/
+
 }
 
 .p_cursos
@@ -3684,55 +3693,81 @@ p {
 
 }
 
-.big-price span{
-    color: #333;
-    font-size:40px;
+.sumarse
+{
+    background-color: #0BC7E1;/*#ff316f*/
+    border-radius: 10px 10px 10px 10px;
+    border-right: 8px solid #0BC7E1;
+    border-bottom: 8px solid #0BC7E1;
+    border-left: 8px solid #0BC7E1;
+    border-top: 8px solid #0BC7E1;
+    color: white;
 }
 
-.btn-price{
-    background-color:#5db4c0;
-    color: #fff;
-    border-radius:50%; 
-    border:none;
-    padding:40px 20px; 
-    font-size: 13px;
-    font-weight: 600;
-    margin-top:20px;
+.sumarse h3
+{
+    font-weight: 700;
 }
 
-.prices-box{
-    margin:50px 0px;
+.sumarse .row
+{
+    padding-top: 20px;
 }
 
-.top-content{
-    background-color:#4d4d4d;
-    padding:20px;
-    border-radius: 10px 10px 0px 0px;
+.card_white
+{
+    background-color: #f1efe9;
+    border-radius: 10px 10px 10px 10px;
+    border-right: 8px solid #f1efe9;
+    border-bottom: 8px solid #f1efe9;
+    border-left: 8px solid #f1efe9;
+    border-top: 8px solid #f1efe9;
+    padding-bottom: 10px;
 }
 
-.bottom-content{
-    background-color:#f6f6f6;
-    border-radius: 0 0 10px 10px;
+.eina{
+    font-family: Eina,sans-serif;
 }
 
-#prices h3{
-    color:#FFF;
-}
 
-#prices .features li{
-    padding:10px;
-}
 
-#prices .btn.btn-default{
-    margin:20px 0px;
-}
-
-#prices .features-border li{
-    border-top:1px solid #c7c7c7;
+.features-border li{
+    border-top:1px solid #442591;
     padding: 10px 0px;
 }
 
-#prices .features-border li:last-child{
-    border-bottom:1px solid #c7c7c7;
+.features-border li:last-child{
+    border-bottom:1px solid #442591;
 }
 
+.title_question {
+    font-weight: 700;
+    color: white;
+}
+
+
+.send_button {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/business-intelligence.png);
+    background-repeat: no-repeat;
+}
+
+.icon-danger {
+    color: #f5593d;
+
+}
+.aa-product-details .icon {
+    float: left;
+    margin-top: 24px;
+    margin-right: 60px;
+    font-size: 3rem;
+}
+.fa {
+     width: 18px; 
+    text-align: center;
+}
+.aa-product-details .description {
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}

@@ -43,6 +43,12 @@
 
     <link rel="stylesheet" href="css/slider_lugares.css">
   
+    <!--slider css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="css/style_slider.css">
+
+
     <script>
       function sendContact() {
         var valid;	
@@ -142,12 +148,11 @@ function validateContact() {
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle nav-link anchor" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Carreras</span> <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="carrera-full-stack-developer-javascript.html" class="nav-link anchor active" style="width: 268px !important;">Full Stack Developer Javascript</a></li>
+                                        <li><a href="carrera-full-stack-developer-javascript.html" class="nav-link anchor active" style="width: 200px !important;">Full Stack</a></li>
                                     </ul>
                                 </li>
 
-                                </li>                                
-                                <li><a href="#anotate" class="nav-link anchor">Anotáte</a></li>
+                                </li> 
                                 <li><a href="#contacto" class="nav-link anchor">Contacto</a></li>
                             </ul>
                         </div>
@@ -166,11 +171,12 @@ function validateContact() {
 
 
     <!-- =======================================
-    ==start banner section==
+    ==start home section==
     =======================================-->
     <section id="home" class="cripto_banner v2 pos_relative">
-        <!-- <img src="images/home2_imgs/banner_vector_img.png" alt="vector img" class="vector_img">
-         <img src="images/home2_imgs/banner_wave_shape.png" alt="img" class="banner_wave_shape">-->
+<div class="background">
+          <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132206/news-slider/background.jpg" alt="">
+        </div>
          <span class="d_block circle circle1"></span>
          <span class="d_block circle circle2"></span>
          <span class="d_block circle circle3"></span>
@@ -186,7 +192,8 @@ function validateContact() {
                      <div class="banner_content align_col_center_center ">
                          <h1 class="fw_700 color_ff">Se Parte del Futuro,</h1>
                          <h1 class="fw_700 color_ff">Aprendé Programación.</h1>
-                         <h5 class="title_20 fw_500 color_ff pt_25 ">Te enseñamos lo que nadie te enseña, ¡A trabajar como programador!</h5>
+                         <h5 class="title_20 fw_500 color_ff pt_25 ">Te enseñamos lo que nadie te enseña. <br>¡A trabajar como programador!</h5>
+                      
                          <!--<ul class="banner_btn d_inline">
                              <li class="mining"><a href="#cursos">Carreras</a></li>
                              <li class="video"><a href="#contacto">¿Donde estamos?</a></li>
@@ -222,16 +229,19 @@ function validateContact() {
          </div>
      </section>
      <!-- =======================================
-     ==End banner section==
+     ==End home section==
      =======================================-->
 
 
   <section id="prices">
       <div class="container"> 
-      
+ 
+      <div class="row">
+        <div class="col-lg-12 card_white">  
+
            <div class="row">
                  <div class="col-lg-12 col-lg-offset-23 text-center">  
-                      <h2>Estructura de la Carrera Full Stack Javascript</h2>
+                      <h2 class="eina">Estructura de la Carrera Full Stack Javascript</h2>
                       
                  </div> 
            </div> 
@@ -239,12 +249,12 @@ function validateContact() {
            <div class="prices-box">
               <div class="row">
              
-               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 price-table aos-init aos-animate" data-aos="fade-right" style="top: 42px;">
+               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 price-table aos-init aos-animate" data-aos="fade-right" style="top: 52px;">
                
                     <div class="top-content text-center">
                     
-                        <div class="title_lang">
-                            <h5>Maquetación con HTML5</h5>
+                        <div class="title_lang title_black" >
+                            <h5 style="padding-bottom: 28px;"><b>Maquetación con HTML5</b></h5>
                         </div>
 
                      </div>
@@ -263,21 +273,21 @@ function validateContact() {
                 </div>
                
                <div id="Programacion" class="col-lg-9"> 
-                <div class="row row_prog">
+                <div class="row row_prog" style="    margin-right: 2px;">
                   <div class="title_prog">
                     <h4>Programación</h4>
                   </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 price-table aos-init aos-animate" data-aos="fade-up">
                      
-                          <div class="top-content text-center">
+                      <div class="top-content text-center">
                           
-                              <div class="title_lang">
-                                  <h5>Front End Javascript Básico</h5>
-                              </div>
+                        <div class="title_lang title_black">
+                          <h5><b>Front End Javascript Básico</b></h5>
+                        </div>
                               
-                           </div>
+                      </div>
                            
-                           <div class="bottom-content text-center">
+                      <div class="bottom-content text-center">
                              <ul class="features-border list-unstyled">
                                 <li>2 Meses - 16 Clases</li>                                            
                              </ul>                        
@@ -296,8 +306,8 @@ function validateContact() {
                      
                           <div class="top-content text-center">
                           
-                              <div class="title_lang">
-                                  <h5>Back End NodeJS y Express</h5>
+                              <div class="title_lang title_black">
+                                  <h5><b>Back End NodeJS y Express</b></h5>
                               </div>
                               
                            </div>
@@ -320,8 +330,8 @@ function validateContact() {
                      
                           <div class="top-content text-center">
                           
-                              <div class="title_lang">
-                                  <h5>Front End Avanzado React</h5>
+                              <div class="title_lang title_black">
+                                  <h5 ><b>Front End Avanzado React</b></h5>
                               </div>
                               
                            </div>
@@ -342,7 +352,8 @@ function validateContact() {
           </div>
         </div>
 
-
+          </div>
+        </div>
 
                </div> 
             </div>  
@@ -352,182 +363,280 @@ function validateContact() {
     
 
     <!-- =======================================
-    ==start process section==
+    ==start slider section==
     =======================================-->
-    <section id="cursos" class="cripto_faq pos_relative">
+    <section id="slider" class="cripto_faq pos_relative ">
+    <div class="container">
+      <div class="wrapper">
+      
+      <div class="row mt_70">
+        <div class="col-lg-12 col-lg-offset-23 text-center">  
+          <h2 class="eina">Nuestro programas incluyen</h2>
+        </div> 
+      </div> 
+      
+      <div class="item-bg"></div>
 
-        <div class="container partners pb_30">
-            <h4>Empresas que confiaron en nuestros mentores</h4>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div id="Carousel" class="carousel slide">
+        <div class="news-slider">
+          <div class="news-slider__wrp swiper-wrapper">
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+       
+                <div class="news__title">Programación Orientada a Objetos</div>
 
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
+                <p class="news__txt">
+                  El paradigma más utilizado laboralmente, ideal para innovar la manera de obtener resultados.
+                </p>
 
-                            <div class="item active " >
-                                <div class="row justify-content-center">
-                                    <div class="col-md-2 col-xs-4"><img src="img/Aysa_logo.png" alt="Image" style="height:80px;"></div>
-                                    <div class="col-md-2 col-xs-4"><img src="img/logouba2.png" alt="Image" style="height:80px;"></div>
-                                </div><!--.row-->
-                            </div><!--.item-->
-
-                        </div>
-                 </div>
-            </div>
-         </div>
-        </div>
-
-
-        <span class="shape1"></span>
-        <span class="shape2"></span>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-
-
-                    <div class="single_faq align_row_spacebetween">
-                        <div class="faq_content">
-                            <h5 class="title_20 color_33 fw_600  ">Cursadas Totalmente Practicas</h5>
-
-                            <p class="fw_500 color_66 pt_30">Sabemos que: ¡lo mejor es poner manos a la obra!.</p>
-                        </div>
-                        <div class="img_area pos_relative">
-                            <img src="img/fondo_web1.png" class="img-fluid" alt="personas1">
-                        </div>
-                    </div>
-
-                    <div class="single_faq align_row_spacebetween">
-                        <div class="faq_content">
-                            <h5 class="title_20 color_33 fw_600  ">Clases con expertos</h5>
-
-                            <p class="fw_500 color_66 pt_30">Nuestros mentores tienen amplia experiencia en el mercado local e internacional</p>
-                        </div>
-                        <div class="img_area pos_relative">
-                            <img src="img/fondo_web2.png" class="img-fluid" alt="personas2">
-                        </div>
-                    </div>
-
-                    <div class="single_faq align_row_spacebetween">
-                        <div class="faq_content">
-                            <h5 class="title_20 color_33 fw_600  ">Cursadas Prensenciales y a Distancia</h5>
-
-                            <p class="fw_500 color_66 pt_30">Siempre pensando en lo mas cómodo para vos. Aulas expasiosas y modernas o en la comodidad de tu casa. </p>
-                        </div>
-                        <div class="img_area pos_relative">
-                            <img src="img/fondo_web3.png" class="img-fluid" alt="personas3">
-                        </div>
-                    </div>
-
-                    <div class="single_faq align_row_spacebetween">
-                        <div class="faq_content">
-                            <h2 class="color_4e1 fw_700">Carrera de Full Stack Developer Javascript</h2>
-                            <h5 class="title_20 color_33 fw_600 pt_20 pb_15">Aprendé todas las herramientas necesarias para trabajar como desarrollador Junior</h5>
-                            <span class="d_block line"></span>
-                            <p class="fw_500 color_66 pt_30">Te enseñamos todas las tecnicas que se necesitan para trabajar en la industria. Tambien los secretos que nadie te enseña, junto a todas las metodogias actuales del mercado. Con este curso vas a aprender todo lo que se necesita de Javascript Y NodeJs.</p>
-
-                            <div class="row text-right pt_20">
-                                <div class="col-md-12">
-                                    <div class="btn" style="background-color: #4509A0;" ><a href="carrera-full-stack-developer-javascript.html" style=" color:white;">Ver Mas</a></div>
-                                </div>
-
-                            </div>
-
-                         
-                        </div>
-                        <div class="img_area pos_relative">
-                            <a href="carrera-full-stack-developer-javascript.html"><img src="img/node-js.png" class="img-fluid" alt="curso de nodejs"></a>
-                        </div>
-                    </div>
-
-
-
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-2.jpg" alt="news">
                 </div>
-                <!--/col-->
+              </a>
             </div>
+
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+   
+                <div class="news__title">
+                  Maquetación
+                </div>
+
+                <p class="news__txt">
+                  Todo lo que necesitas saber sobre la diagramación y organización de espacios dentro de la web o programa
+                </p>
+
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-3.jpg" alt="news">
+                </div>
+              </a>
+            </div>
+
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+
+                <div class="news__title">Bases de datos</div>
+
+                <p class="news__txt">
+                  Vas a aprender sobre mas bases de datos mas utilizadas en el mercado laboral, tanto SQL como NOSQL.
+                </p>
+
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-4.jpg" alt="news">
+                </div>
+              </a>
+            </div>
+
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+
+                <div class="news__title">Herramientas de Versionado</div>
+
+                <p class="news__txt">
+                  El software más moderno de control de versiones. pensado en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones.
+                </p>
+
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-2.jpg" alt="news">
+                </div>
+              </a>
+            </div>
+
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+
+                <div class="news__title">Patrones de diseño</div>
+
+                <p class="news__txt">
+                  Conocerás las principales y aprenderás a usarlas en tus aplicaciones web.
+                </p>
+
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-5.jpg" alt="news">
+                </div>
+              </a>
+            </div>
+
+            <div class="news-slider__item swiper-slide">
+              <a href="#" class="news__item">
+
+                <div class="news__title">APIS</div>
+
+                <p class="news__txt">
+                  crearás tus propias APIs en tus aplicaciones y utilizaras servicios de terceros.
+                </p>
+
+                <div class="news__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537132205/news-slider/item-4.jpg" alt="news">
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="news-slider__ctr">
+
+            <div class="news-slider__arrows">
+              <button class="news-slider__arrow news-slider-prev">
+                <span class="icon-font">
+                  <svg class="icon icon-arrow-left"><use xlink:href="#icon-arrow-left"></use></svg>
+                </span>
+              </button>
+              <button class="news-slider__arrow news-slider-next">
+                <span class="icon-font">
+                  <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+                </span>
+              </button>
+            </div>
+
+            <div class="news-slider__pagination"></div>
+
+          </div>
+
         </div>
+
+      </div>
+
+      <svg hidden="hidden">
+        <defs>
+          <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+            <title>arrow-left</title>
+            <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+          </symbol>
+          <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+            <title>arrow-right</title>
+            <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+          </symbol>
+        </defs>
+      </svg>
+      </div>
     </section>
+
+     <!-- =======================================
+    ==start more info ==
+    =======================================-->   
+      <div class="container mt_55 mb_55">
+      <form>
+         <div class="form-group row">
+            <label for="nombre" class="col-3 col-form-label title_question">Quiero Saber mas: </label> 
+            <div class="col-md-2">
+              <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col-md-2">
+              <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Apellido">
+            </div>
+            <div class="col-md-3">
+              <input id="whatsapp" name="whatsapp" type="text" class="form-control" placeholder="Whatsapp">
+            </div>
+            <div class="col-md-2">
+              <button name="submit" type="submit" class="btn btn-primary ">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
     <!-- =======================================
-    ==End process section==
+    ==start quien info ==
+    =======================================-->
+    <section id="quien" class="cripto_faq pos_relative ">
+      <div class="aa-product-features section mt_70">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-12">
+              <img class="img-fluid" src="img/macbook_per.jpg" alt="Image">
+            </div>
+
+            <div class="col-md-7 col-sm-12">
+              <h2 class="title mb-2">¿Quién puede sumarse a nuestra carrera de programación?</h2>
+              <p class="pt-2">La carrera y todos sus cursos van dirigido a personas apasionadas por el mundo digital que quieran adquirir habilidades técnicas para trabajar en una empresa o que quieran llevar su proyecto personal o empresarial al próximo nivel. Durante el curso podrás trabajar con tu emprendimiento o con distintos proyectos reales que te brindaremos. Al ser un aula cooperativa, te verás beneficiado por las experiencias de tus compañeros.</p>
+
+
+              <ul class="py-1 list-unstyled">
+                <li class="py-1"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Entusiastas,
+Docentes,
+Ingenieros,
+Informáticos,
+Profesionales de la Comunicación y el Diseño</li>
+                <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i>Profesionales de la Administración,
+Profesionales del periodismo, la publicidad y el Marketing,
+Emprendedores con negocios que quieran llevar su idea al mundo,
+Personas apasionadas por aprender sobre el universo del desarrollo web</li>
+                
+              </ul>
+
+              <p class="pt-5 pb-1">El curso no requiere de ningún conocimiento previo. Empezamos desde cero, con el cielo como límite.</p>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section>  
+
+   
+
+    <!-- =======================================
+    ==End quien section==
     =======================================-->
 
 
     <!-- =======================================
        ==start modalidad section==
        ======================================= -->
-    <section id="token" class="token_section v2 pos_relative">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section_title text-center mb_70">
-                        <h2 class="color_4e1 fw_700">Modalidad de Cursada</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="facts_wrapper mt_55 clearfix">
-                        <p>
-                            ONLINE<br>
-                            * Clase en tiempo real por video conferencia.<br>
-                            * Cursos 100% prácticos.<br>
-                            * Profesor disponible para hacer consultas en vivo y acceso al Slack de la empresa.<br>
-                            * Grabación de las clases disponibles.
-                        </p>
-                        <P>
-                            PRESENCIALES<br>
-                            * Equipo de Mentores Expertos.<br>
-                            * Material online siempre disponible.<br>
-                        </P>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 offset-lg-1">
-                    <div class="countdown_area bg_ff radius_5">
-                        <h4 class="color_ff fw_600">Consultas</h4>
-
-                        <form>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="name">Nombre</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Tu Nombre" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Correo Electronico</label>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Tu Correo" required="required" />
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="name">Consulta</label>
-                                        <textarea name="message" id="message" class="form-control" rows="4" cols="15" required="required" placeholder="Consulta"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onClick="sendContact();">Enviar Consulta</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                   
-                </div>
-
-            </div>
-
+<section id="modalidad" class="token_section v2 pos_relative">
+  <div class="container">
+  <div class="aa-product-details section" id="features">
+    <div class="row">
+      <div class="col-12">
+        <div class="section_title text-center mb_70">
+          <h2 class="color_4e1 fw_700">Modalidad de Cursada</h2>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="icon icon-danger"><i class="fa fa-tags" aria-hidden="true"></i>
+        </div><div class="description">
+          <div class="h4">Showcase Your App</div>
+          <p class="text-muted">Clase en tiempo real por video conferencia.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="icon icon-danger"><i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+        <div class="description">
+          <div class="h4">Easy to Customize</div>
+          <p class="text-muted">Cursos 100% prácticos.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="icon icon-danger"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
+        <div class="description"><div class="h4">Unlimited Colors</div>
+        <p class="text-muted">Grabación de las clases disponibles.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="icon icon-danger"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+      <div class="description">
+        <div class="h4">Responsive, HTML5, CSS3</div>
+        <p class="text-muted">Equipo de Mentores Expertos.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="icon icon-danger"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+      <div class="description">
+        <div class="h4">Designed to Convert</div>
+        <p class="text-muted">Material online siempre disponible.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="icon icon-danger"><i class="fa fa-life-ring" aria-hidden="true"></i></div>
+      <div class="description">
+        <div class="h4">With no Boundaries</div><p class="text-muted">Use Bootstrap and PaperKit to add additional components.</p></div>
+      </div>
+    </div>
+  </div>  
+  </div>
+ </section>    
 
-    </section>
     <!--=======================================
     ==End modalidad section==
     =======================================-->
@@ -543,10 +652,10 @@ function validateContact() {
                 <div class="col-12">
                     <div class="cta_content align_row_spacebetween">
                         <div class="content_txt">
-                            <h2 class="color_ff pos_relative fw_700">¿Listo para empezar?</h2>
-                            <p class="color_33 pt_20 fw_500">Mira las proximas fechas de comienzo de los cursos.</p>
+                            <h2 class="color_ff pos_relative fw_700">¿Te interesa?</h2>
+                            <p class="color_33 pt_20 fw_500">Mira el programa de la carrera.</p>
                         </div>
-                        <a href="#" class="cta_button text-capitalize radius_50 fw_700">Quiero empezar ya!</a>
+                        <a href="#" class="cta_button text-capitalize radius_50 fw_700">Descargar programa</a>
                     </div>
                 </div>
                 <!--/col-->
@@ -684,5 +793,9 @@ function validateContact() {
 
 <!-- all jQuary activation code here and always it will be bottom of all script tag -->
 <script type="text/javascript" src="js/main.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+<script  src="js/script_slider.js"></script>
+
 </body>
 </html>
